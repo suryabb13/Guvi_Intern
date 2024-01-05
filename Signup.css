@@ -1,0 +1,41 @@
+.navbar{
+    background-color: rgb(100, 211, 150);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    font-style:normals;
+
+}
+.lab{
+    padding-left: 20px;
+}
+.form-group{
+    padding: 5px;
+    align-self: center;
+}
+.container{
+   /* background-color: rgb(100, 211, 150); */
+    margin-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;    
+}
+.btn{
+    background-color: grey;
+}
+.dob{
+    padding-right: 95px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+.form1{
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    
+    margin: 10px;
+    border-radius: 5px;
+}
+#emailmsg,#pwdmsg{
+    color: red;
+    font-weight:300;
+    font-size: 18px;
+}

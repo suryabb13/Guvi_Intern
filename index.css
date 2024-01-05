@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(100, 211, 150);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+
+}
+.lab{
+    padding-left: 20px;
+}
+.form-group{
+    padding: 5px;
+    align-content: center;
+}
+.container{
+   /* background-color: rgb(100, 211, 150); */
+    margin-top: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
+
+
+#msg , #output{
+    color: red;
+    font-size: 18px;
+}
