@@ -12,7 +12,7 @@ $("#submit").click(function(e){
     var em=0;
     var pd=0;
     var fill=false;
-   //  console.log(fname,lname,mobile,dob,email,pwd,repwd);
+   
     
     if(fname!='' && lname!='' && pwd!='' && repwd!='' && email!='')
     {
@@ -52,12 +52,11 @@ $("#submit").click(function(e){
          function fune(){
                if (IsEmail(email) === false) {
                   $('#emailmsg').text("Entered Email is not Valid!!");
-                  // $('#emailmsg').css("color", "red");
+                
                   return false;
                }  
                else{
-                  // $('#emailmsg').text("Entered Email is Valid");
-                  // $('#emailmsg').css("color", "green");
+                
                   $('#emailmsg').empty();
                   em +=1;
                 
@@ -104,17 +103,4 @@ $("#submit").click(function(e){
 });
 
 
-// var sub=document.querySelector('#submit');
-//  sub.addEventListener('click',fun);
-//  function fun(){
-    // var fname=document.querySelector('.fname').value;
-    // var lname=document.querySelector('.lname').value;
-    // var mobile=document.querySelector('.mobile').value;
-    // var dob=document.querySelector('.dob').value;
-    // var email=document.querySelector('.email').value;
-    // var pwd=document.querySelector('.password').value;
-    // var repwd=document.querySelector('.re-password').value;
-    // console.log(fname,lname,mobile,dob,email,pwd,repwd);
-   //  var first=($(".fname")).val();
 
-//  }
