@@ -18,11 +18,10 @@ $(document).ready(function(){
                 },
                 dataType: "json",
                 success: function (data) {
-                    // var loc=JSON.stringify(data)
+                    
                     if (data.success) 
                     {    
-                        // var id=data.sec;
-                        // console.log(id);
+                      
                         localStorage.setItem("userData", JSON.stringify(data));
                          window.location.href = "http://127.0.0.1:5500/html/profile.html";
                        
