@@ -17,17 +17,9 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-
-// $email="smsunsurya@gmail.com";
-// $password="13surya@sun";
-
-
-  
-   
+     
 
 $email = $_POST['email'];
-
-// echo "$email";
 
 
   if($email!=''){
@@ -40,9 +32,7 @@ $email = $_POST['email'];
     $stmt->bind_result($dfname,$dlname,$ddob,$dgender,$demail,$dmobile,$dbPassword);
     $stmt->fetch();
     $stmt->close();
-    //  $data[]='';
-
-    // echo "$dfname,$dlname,$ddob,$dgender,$demail,$dmobile,$dbPassword";
+  
 
         
         $fun = array(
