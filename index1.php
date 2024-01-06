@@ -18,8 +18,7 @@ if ($conn->connect_error) {
 }
 
 
-// $email="smsunsurya@gmail.com";
-// $password="13surya@sun";
+
 
 
   
@@ -27,7 +26,7 @@ if ($conn->connect_error) {
 
 $email = $_POST['email'];
 $password = $_POST['pwd'];
-// echo "$email";
+
 
 
   if($email!='' && $password!=''){
@@ -42,7 +41,7 @@ $password = $_POST['pwd'];
     $stmt->close();
     //  $data[]='';
 
-    // echo "$dfname,$dlname,$ddob,$dgender,$demail,$dmobile,$dbPassword";
+  
 
     if ($dbPassword === $password && $email === $demail) {
         
