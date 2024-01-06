@@ -17,7 +17,6 @@ $conn=mysqli_connect($db_server,
     echo "can't connected";
  }
 
-//  $type = $_POST['type'];
 
 
  $fname =$_POST['fname'];
@@ -27,8 +26,6 @@ $dob =$_POST['dob'];
 $email =$_POST['email'];
 $password =$_POST['pwd'];
 $gender =$_POST['gender'];
-// $udata[]='';
-// echo $fname,$lname,$mobile,$dob,$email,$password,$gender;
 
 $stmt = $conn->prepare("UPDATE Guvi SET Fname=?, Lname=? , Dob=?, Gender=?, Mobile=? ,  Password=? WHERE Email=?");
 $stmt->bind_param('sssssss', $fname , $lname ,$dob ,$gender ,$mobile ,$password , $email);
