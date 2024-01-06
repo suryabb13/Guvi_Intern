@@ -1,10 +1,7 @@
 $(document).ready(function(){
         
     var mail= JSON.parse(localStorage.getItem("userData"));
-       
-    // var mail=localStorage.getItem("userData");
-    
-    // var key="15560aa951903b826a06863c2dc6ff52";
+
       
        
         // console.log(key);
