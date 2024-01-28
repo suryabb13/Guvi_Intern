@@ -17,7 +17,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-     
 
 $email = $_POST['email'];
 
@@ -25,7 +24,7 @@ $email = $_POST['email'];
   if($email!=''){
 
  
-    // Prepare a statement to select the password for the given email
+   
     $stmt = $conn->prepare("SELECT Fname, Lname, Dob, Gender , Email , Mobile, Password  FROM Guvi WHERE Email = ?");
     $stmt->bind_param("s", $email);
     $stmt->execute();
