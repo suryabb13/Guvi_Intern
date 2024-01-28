@@ -19,7 +19,7 @@ $conn=mysqli_connect($db_server,
 
 
 
- $fname =$_POST['fname'];
+$fname =$_POST['fname'];
 $lname =$_POST['lname'];
 $mobile =$_POST['mobile'];
 $dob =$_POST['dob'];
