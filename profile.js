@@ -3,7 +3,6 @@ $(document).ready(function(){
     var mail= JSON.parse(localStorage.getItem("userData"));
 
       
-       
         // console.log(key);
         if(mail!= null){
             var key =  mail.sec;
@@ -82,7 +81,6 @@ $(document).ready(function(){
   
 
        
-
 
         $("#update").click(function(){
             
