@@ -33,7 +33,7 @@ $stmt = $conn->prepare($query);
 $stmt->bind_param('s', $email);
 $stmt->execute();
 
-// grab the result
+// grab the results
 $stmt->bind_result($numRows);
 $stmt->fetch();
 $stmt->close();
