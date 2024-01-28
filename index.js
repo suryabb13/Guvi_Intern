@@ -4,8 +4,10 @@ $(document).ready(function(){
        e.preventDefault();
         var email=($("#email")).val();
         var pwd=($("#password")).val();
-        console.log(email,pwd);
-      
+       // console.log(email,pwd);
+
+        
+        
          if(email!='' && pwd!=''){
             $('#msg').empty(); 
             $.ajax({
