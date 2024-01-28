@@ -14,7 +14,7 @@ $("#submit").click(function(e){
     var fill=false;
    
     
-    if(fname!='' && lname!='' && pwd!='' && repwd!='' && email!='')
+    if(fname!='' && lname!='' && pwd!='' && repwd!='' && email!='' && dob!='')
     {
 
          $('#pwdmsg').empty();
@@ -92,7 +92,7 @@ $("#submit").click(function(e){
 
  
   else{
-      $('#pwdmsg').text("Name, Email ,Password must be filled");
+      $('#pwdmsg').text("Name, Email ,dob , Password must be filled");
    }
    
    
